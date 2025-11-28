@@ -29,7 +29,7 @@ The app focuses on:
 
 - Node.js 
 - npm 
-- MongoDB / Express.js backend running on `https://lapto-server.vercel.app`
+- MongoDB / Express.js backend
 - Firebase project 
 
 
