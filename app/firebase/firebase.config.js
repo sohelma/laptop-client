@@ -4,16 +4,16 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCuYwPNDg_g0s6Co5YojAwLF6nVOqB6mko",
-  authDomain: "rentwheels-auth-4626a.firebaseapp.com",
-  projectId: "rentwheels-auth-4626a",
-  storageBucket: "rentwheels-auth-4626a.appspot.com",
-  messagingSenderId: "1039335519519",
-  appId: "1:1039335519519:web:be19c005a164e6583dec2a",
+  apiKey: "AIzaSyAZkHVwjjISkMJCT1a-gOYoihWArRuvhPA",
+  authDomain: "laptop-client-227ce.firebaseapp.com",
+  projectId: "laptop-client-227ce",
+  storageBucket: "laptop-client-227ce.firebasestorage.app",
+  messagingSenderId: "893538538464",
+  appId: "1:893538538464:web:0bb705d3677cbb21609185"
 };
 
-// Initialize Firebase only once
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 // Auth and Firestore
 export const auth = getAuth(app);
