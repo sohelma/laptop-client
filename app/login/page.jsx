@@ -1,3 +1,4 @@
+//app/login/paage.jsx
 "use client";
 import { useState } from "react";
 import { auth, googleProvider } from "../firebase/firebase.config"; 
